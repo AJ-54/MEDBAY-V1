@@ -247,7 +247,10 @@ const Dashboard = () => {
 		<React.Fragment>
 			<div style={{ marginTop: "20px" }}>
 				<Container fluid>
-					<Breadcrumbs title="MedBay" breadcrumbItem="Dashboard" />
+					<Breadcrumbs
+						title="MedBay"
+						breadcrumbItem="Doctor Dashboard"
+					/>
 					<Row>
 						<MiniWidget reports={reports} />
 					</Row>

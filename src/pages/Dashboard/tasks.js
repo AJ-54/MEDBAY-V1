@@ -12,7 +12,7 @@ import Weavy from "../../weavy/Weavy";
 import WeavyApp from "../../weavy/WeavyApp";
 
 var token =
-	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiTUVCREFZIE5VUlNFIiwiaXNzIjoiMmNiN2I4MWYtNmQzOS00M2IwLThhYmMtMTRlNGJlNmJhZGY0IiwiZXhwIjoyMTIyMTIyMjIzLCJlbWFpbCI6Im1lZGJheV9udXJzZUB3ZWF2eS5jb20iLCJzdWIiOiJtZWRiYXlfbnVyc2VAd2VhdnkuY29tIiwiY2xpZW50X2lkIjoiMmNiN2I4MWYtNmQzOS00M2IwLThhYmMtMTRlNGJlNmJhZGY0In0.vTEoCqLAg9Q2cC1eeYS3oLQbsD5woEdREkylDs3ZHAQ";
+	"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSVNISVRBIERPQ1RPUiIsImlzcyI6IjAwM2NjMjljLTgwNDQtNDc4OC04OWE1LWZiYmJjMTRmZmUxZCIsImV4cCI6MjEyMjEyMjIyMywiZW1haWwiOiJpc2hpdGFkb2N0b3JAd2VhdnkuY29tIiwic3ViIjoiaXNoaXRhZG9jdG9yQHdlYXZ5LmNvbSIsImNsaWVudF9pZCI6IjAwM2NjMjljLTgwNDQtNDc4OC04OWE1LWZiYmJjMTRmZmUxZCJ9.5r122QhXYuIgrJwVuE1r-1Cox6t0L-vRAo4iVfr0AKw";
 
 const RecentActivity = () => {
 	return (
@@ -52,7 +52,7 @@ const RecentActivity = () => {
 								appKey="react-tasks"
 								appName="React tasks"
 								appType="tasks"
-								height="419px"
+								height="330px"
 							/>
 						</div>
 					</Weavy>

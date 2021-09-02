@@ -121,7 +121,7 @@ const LatestTransaction = () => {
 												#MB2541
 											</Link>{" "}
 										</td>
-										<td>Jamal Burnett</td>
+										<td>Jack Neto</td>
 										<td>07 Sept, 2021</td>
 										<td>Rs 380</td>
 										<td>

@@ -231,14 +231,14 @@ const userRoutes = [
 ];
 
 const authRoutes = [
-	{ path: "/", exact: true, component: Dashboard },
-
 	{ path: "/logout", component: Logout },
 	{ path: "/dashboard", component: Dashboard },
 	{ path: "/calendar", component: Calendar },
 	//chat
 	{ path: "/chat", component: Chat },
 	{ path: "/files", component: Files },
+	{ path: "/", exact: true, component: Dashboard },
+
 	{ path: "/forgot-password", component: ForgetPwd },
 	{ path: "/register", component: Register },
 
