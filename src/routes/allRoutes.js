@@ -227,12 +227,13 @@ const userRoutes = [
 	{ path: "/profile", component: UserProfile },
 
 	// this route should be at the end of all other routes
-	{ path: "/", exact: true, component: () => <Redirect to="/dashboard" /> },
+	{ path: "/", exact: true, component: Dashboard },
 ];
 
 const authRoutes = [
+	{ path: "/", exact: true, component: Dashboard },
+
 	{ path: "/logout", component: Logout },
-	{ path: "/login", component: Login },
 	{ path: "/dashboard", component: Dashboard },
 	{ path: "/calendar", component: Calendar },
 	//chat

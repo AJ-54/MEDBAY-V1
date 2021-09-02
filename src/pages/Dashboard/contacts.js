@@ -38,7 +38,7 @@ const RecentActivity = () => {
 					</UncontrolledDropdown>
 				</div>
 
-				<h4 className="card-title mb-4">Recent Activity</h4>
+				<h4 className="card-title mb-4">Recent Files</h4>
 
 				<SimpleBar
 					className="activity-feed mb-0 ps-2"
@@ -47,12 +47,12 @@ const RecentActivity = () => {
 					<Weavy jwt={token}>
 						<div className="App">
 							<WeavyApp
-								spaceKey="dashboard-space"
+								spaceKey="react-space-contact"
 								spaceName="React Space"
-								appKey="react-posts"
-								appName="React posts"
-								appType="posts"
-								height="419px"
+								appKey="contact-files"
+								appName="Contact files"
+								appType="files"
+								height="600px"
 							/>
 						</div>
 					</Weavy>
